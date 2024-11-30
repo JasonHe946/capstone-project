@@ -1,0 +1,146 @@
+@startuml packages_acsess_project
+set namespaceSeparator none
+package "acsess_api" as acsess_api {
+}
+package "acsess_api.admin" as acsess_api.admin {
+}
+package "acsess_api.apps" as acsess_api.apps {
+}
+package "acsess_api.migrations" as acsess_api.migrations {
+}
+package "acsess_api.migrations.0001_initial" as acsess_api.migrations.0001_initial {
+}
+package "acsess_api.migrations.0002_cse_staff_staff_email_hdr_student_student_email" as acsess_api.migrations.0002_cse_staff_staff_email_hdr_student_student_email {
+}
+package "acsess_api.migrations.0003_cse_staff_user_hdr_student_user_and_more" as acsess_api.migrations.0003_cse_staff_user_hdr_student_user_and_more {
+}
+package "acsess_api.migrations.0004_remove_cse_staff_user_remove_hdr_student_user_and_more" as acsess_api.migrations.0004_remove_cse_staff_user_remove_hdr_student_user_and_more {
+}
+package "acsess_api.migrations.0005_cse_staff_user_hdr_student_user" as acsess_api.migrations.0005_cse_staff_user_hdr_student_user {
+}
+package "acsess_api.migrations.0006_alter_cse_staff_user_alter_hdr_student_user" as acsess_api.migrations.0006_alter_cse_staff_user_alter_hdr_student_user {
+}
+package "acsess_api.migrations.0007_room_booking" as acsess_api.migrations.0007_room_booking {
+}
+package "acsess_api.migrations.0008_hotdesk" as acsess_api.migrations.0008_hotdesk {
+}
+package "acsess_api.migrations.0009_remove_booking_id_remove_booking_purpose_and_more" as acsess_api.migrations.0009_remove_booking_id_remove_booking_purpose_and_more {
+}
+package "acsess_api.migrations.0010_pending_booking_booking_id" as acsess_api.migrations.0010_pending_booking_booking_id {
+}
+package "acsess_api.migrations.0011_rename_booking_id_pending_booking_booking" as acsess_api.migrations.0011_rename_booking_id_pending_booking_booking {
+}
+package "acsess_api.migrations.0012_rename_room_booking_id_booking_booking_id_and_more" as acsess_api.migrations.0012_rename_room_booking_id_booking_booking_id_and_more {
+}
+package "acsess_api.migrations.0013_hotdesk_hotdesk_coordinates" as acsess_api.migrations.0013_hotdesk_hotdesk_coordinates {
+}
+package "acsess_api.migrations.0014_booking_created_at_booking_updated_at_and_more" as acsess_api.migrations.0014_booking_created_at_booking_updated_at_and_more {
+}
+package "acsess_api.migrations.0015_alter_booking_history_booking" as acsess_api.migrations.0015_alter_booking_history_booking {
+}
+package "acsess_api.migrations.0016_cse_staff_otp_hdr_student_otp" as acsess_api.migrations.0016_cse_staff_otp_hdr_student_otp {
+}
+package "acsess_api.migrations.0017_booking_check_in_status_and_more" as acsess_api.migrations.0017_booking_check_in_status_and_more {
+}
+package "acsess_api.migrations.0018_booking_checked_in_at_booking_checked_out_at" as acsess_api.migrations.0018_booking_checked_in_at_booking_checked_out_at {
+}
+package "acsess_api.migrations.0019_remove_booking_checked_out_at_and_more" as acsess_api.migrations.0019_remove_booking_checked_out_at_and_more {
+}
+package "acsess_api.models" as acsess_api.models {
+}
+package "acsess_api.periodic_tasks" as acsess_api.periodic_tasks {
+}
+package "acsess_api.serializers" as acsess_api.serializers {
+}
+package "acsess_api.signals" as acsess_api.signals {
+}
+package "acsess_api.src" as acsess_api.src {
+}
+package "acsess_api.src.auth" as acsess_api.src.auth {
+}
+package "acsess_api.src.booking" as acsess_api.src.booking {
+}
+package "acsess_api.src.database" as acsess_api.src.database {
+}
+package "acsess_api.src.email" as acsess_api.src.email {
+}
+package "acsess_api.tasks" as acsess_api.tasks {
+}
+package "acsess_api.tests" as acsess_api.tests {
+}
+package "acsess_api.tests.test_admin_accept_or_deny_booking" as acsess_api.tests.test_admin_accept_or_deny_booking {
+}
+package "acsess_api.tests.test_admin_help" as acsess_api.tests.test_admin_help {
+}
+package "acsess_api.tests.test_cancel_booking" as acsess_api.tests.test_cancel_booking {
+}
+package "acsess_api.tests.test_change_password" as acsess_api.tests.test_change_password {
+}
+package "acsess_api.tests.test_check_in" as acsess_api.tests.test_check_in {
+}
+package "acsess_api.tests.test_contact_admin" as acsess_api.tests.test_contact_admin {
+}
+package "acsess_api.tests.test_create_hotdesk_booking" as acsess_api.tests.test_create_hotdesk_booking {
+}
+package "acsess_api.tests.test_create_room_booking" as acsess_api.tests.test_create_room_booking {
+}
+package "acsess_api.tests.test_download_booking_history" as acsess_api.tests.test_download_booking_history {
+}
+package "acsess_api.tests.test_edit_booking" as acsess_api.tests.test_edit_booking {
+}
+package "acsess_api.tests.test_get_table_data" as acsess_api.tests.test_get_table_data {
+}
+package "acsess_api.tests.test_login" as acsess_api.tests.test_login {
+}
+package "acsess_api.tests.test_reset_password" as acsess_api.tests.test_reset_password {
+}
+package "acsess_api.tests.test_signup" as acsess_api.tests.test_signup {
+}
+package "acsess_api.tests.test_update_user_role" as acsess_api.tests.test_update_user_role {
+}
+package "acsess_api.urls" as acsess_api.urls {
+}
+package "acsess_api.views" as acsess_api.views {
+}
+package "acsess_backend" as acsess_backend {
+}
+package "acsess_backend.asgi" as acsess_backend.asgi {
+}
+package "acsess_backend.celery" as acsess_backend.celery {
+}
+package "acsess_backend.settings" as acsess_backend.settings {
+}
+package "acsess_backend.urls" as acsess_backend.urls {
+}
+package "acsess_backend.wsgi" as acsess_backend.wsgi {
+}
+acsess_api.admin --> acsess_api.models
+acsess_api.apps --> acsess_api.signals
+acsess_api.migrations.0005_cse_staff_user_hdr_student_user --> acsess_api.models
+acsess_api.models --> acsess_api.tasks
+acsess_api.serializers --> acsess_api.models
+acsess_api.signals --> acsess_api.models
+acsess_api.src.auth --> acsess_api.src.email
+acsess_api.src.booking --> acsess_api.models
+acsess_api.src.booking --> acsess_api.src.email
+acsess_api.src.database --> acsess_api.models
+acsess_api.tasks --> acsess_api.models
+acsess_api.tests.test_admin_accept_or_deny_booking --> acsess_api.models
+acsess_api.tests.test_cancel_booking --> acsess_api.models
+acsess_api.tests.test_check_in --> acsess_api.models
+acsess_api.tests.test_create_hotdesk_booking --> acsess_api.models
+acsess_api.tests.test_create_room_booking --> acsess_api.models
+acsess_api.tests.test_download_booking_history --> acsess_api.models
+acsess_api.tests.test_edit_booking --> acsess_api.models
+acsess_api.tests.test_login --> acsess_api.models
+acsess_api.tests.test_reset_password --> acsess_api.models
+acsess_api.tests.test_signup --> acsess_api.models
+acsess_api.urls --> acsess_api.views
+acsess_api.views --> acsess_api.serializers
+acsess_api.views --> acsess_api.src.auth
+acsess_api.views --> acsess_api.src.booking
+acsess_api.views --> acsess_api.src.database
+acsess_api.views --> acsess_api.src.email
+acsess_backend --> acsess_backend.celery
+acsess_backend.celery --> acsess_backend.celery
+@enduml

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  test:
+    build: ./acsess_backend
+    command: python manage.py test acsess_api.tests
+    volumes:
+      - ./acsess_backend:/project
+    environment:
+      - DATABASE_URL=postgres://postgres:postgres@db:5432/postgres
+    depends_on:
+      - db
